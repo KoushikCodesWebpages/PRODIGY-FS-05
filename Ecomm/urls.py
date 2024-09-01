@@ -21,6 +21,6 @@ from api.views import ProductView
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',TemplateView.as_view(template_name='index.html'),name='index'),
-    path('products/', ProductView.as_view(), name='product-list'),
-    path('products/<int:index>/', ProductView.as_view(), name='product-detail'),
+    path('api/products/', ProductView.as_view(), name='product-list'),
+    path('api/products/<int:index>/', ProductView.as_view(), name='product-detail'),
 ]
