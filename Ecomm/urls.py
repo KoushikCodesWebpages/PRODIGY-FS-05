@@ -17,7 +17,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.views.generic import TemplateView
+from api.views import ProductView
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',TemplateView.as_view(template_name='index.html'),name='index')
+    path('',TemplateView.as_view(template_name='index.html'),name='index'),
+    path('products/', ProductView.as_view(), name='product-list'),
+    path('products/<int:index>/', ProductView.as_view(), name='product-detail'),
 ]
