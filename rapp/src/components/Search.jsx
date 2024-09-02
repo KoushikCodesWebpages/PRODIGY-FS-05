@@ -51,7 +51,7 @@ const Search = ({ isVisible, onClose }) => {
   return (
     <div
       ref={searchRef}
-      className="fixed top-14 left-0 right-0 container mx-auto mt-3 p-4 bg-white shadow-lg rounded-md z-50"
+      className="fixed top-14 left-0 right-0 container mx-auto mt-3 p-4 bg-white shadow-lg rounded-md z-40"
     >
       <input
         type="text"

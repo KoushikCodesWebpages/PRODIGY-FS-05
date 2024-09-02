@@ -1,10 +1,13 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import Name from '../components/Name'
 
 const TopPart = () => {
   return (
-    <div>
+    <div >
         <Navbar />
+        <Name />
+       
     </div>
   )
 }

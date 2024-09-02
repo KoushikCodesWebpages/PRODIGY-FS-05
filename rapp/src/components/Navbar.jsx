@@ -19,7 +19,7 @@ const Navbar = () => {
         <div className="fixed inset-0 bg-black opacity-50 z-40"></div>
       )}
 
-      <nav className="bg-blue-600 p-3 relative z-50">
+      <nav className="bg-blue-700 p-3 w-full z-30 shadow-lg shadow-blue-800 fixed nerko-one-regular">
         <div className="container mx-auto flex justify-between items-center">
           {/* Search Icon on the Left */}
           <div
@@ -28,7 +28,7 @@ const Navbar = () => {
             onMouseLeave={() => setTooltipVisible(false)}
           >
             <button onClick={toggleSearch} className="text-white flex items-center">
-              <FontAwesomeIcon icon={faSearch} size="lg" />
+              <FontAwesomeIcon icon={faSearch} size="md" />
               <span className="ml-2 hidden md:inline text-white">Search</span>
             </button>
 
@@ -41,10 +41,12 @@ const Navbar = () => {
           </div>
 
           {/* Company Name in the Center */}
-          <h1 className="text-white text-xl font-bold">MyCompany</h1>
+          <h1 className="text-white text-lg ">MyCompany</h1>
 
           {/* Placeholder for Right Side Items */}
-          <div></div>
+          <div>
+          <h1 className="text-white text-lg">MyCompany</h1>
+          </div>
         </div>
       </nav>
 
