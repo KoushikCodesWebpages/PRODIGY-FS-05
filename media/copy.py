@@ -2,7 +2,7 @@ import shutil
 import os
 
 # Path to the original image
-original_image_path = 'media\product_images\img_1.jpg'
+original_image_path = 'media\img_1.jpg'
 
 # Directory to save the new images
 output_directory = 'media\product_images'
