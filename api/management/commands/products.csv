@@ -1,0 +1,74 @@
+title,description,status,price,stock,image
+T-Shirt Basic,Classic cotton t-shirt in various colors,in stock,19.99,100,img_1.jpg
+Slim Fit Jeans,Modern slim fit jeans with stretch,limited edition,39.99,50,img_2.jpg
+Casual Shirt,Short-sleeve casual shirt with a relaxed fit,sold,29.99,75,img_3.jpg
+Chinos,Versatile chinos perfect for casual and semi-formal wear,in stock,49.99,30,img_4.jpg
+Polo Shirt,Soft cotton polo with a classic collar,limited edition,25.49,60,img_5.jpg
+Hoodie,Comfortable hoodie with adjustable drawstring,sold,59.99,20,img_6.jpg
+Shorts,Lightweight shorts ideal for warm weather,in stock,19.99,150,img_7.jpg
+Dress Shirt,Formal dress shirt with a crisp collar,limited edition,39.99,200,img_8.jpg
+Leather Jacket,Stylish leather jacket with multiple pockets,sold,199.99,10,img_9.jpg
+Blazer,Tailored blazer for a sophisticated look,in stock,120.00,8,img_10.jpg
+Sweater,Soft wool sweater available in various colors,limited edition,45.00,70,img_11.jpg
+Bomber Jacket,Trendy bomber jacket with ribbed cuffs,sold,65.50,50,img_12.jpg
+Track Pants,Comfortable track pants for workouts and casual wear,in stock,29.99,75,img_13.jpg
+Denim Jacket,Classic denim jacket with a relaxed fit,limited edition,59.99,45,img_14.jpg
+Button-Down Shirt,Formal button-down shirt with a tailored fit,sold,35.00,60,img_15.jpg
+Overcoat,Long overcoat suitable for colder weather,in stock,130.00,30,img_16.jpg
+V-Neck Sweater,Versatile v-neck sweater perfect for layering,limited edition,40.00,55,img_17.jpg
+Cargo Pants,Durable cargo pants with multiple pockets,sold,50.00,40,img_18.jpg
+Puffer Jacket,Insulated puffer jacket for extra warmth,in stock,99.99,20,img_19.jpg
+Henley Shirt,Rugged henley shirt with a three-button placket,limited edition,24.99,80,img_20.jpg
+Sweatshirt,Cozy sweatshirt for everyday wear,sold,34.99,60,img_21.jpg
+Cardigan,Classic cardigan with a button-up front,in stock,42.00,55,img_22.jpg
+Jogger Pants,Comfortable jogger pants with an elastic waistband,limited edition,30.00,45,img_23.jpg
+Suit Jacket,Sharp suit jacket perfect for formal occasions,sold,150.00,25,img_24.jpg
+Vest,Stylish vest for layering over shirts or jackets,in stock,35.00,40,img_25.jpg
+Thermal Shirt,Heat-retaining thermal shirt for cold weather,limited edition,28.99,70,img_26.jpg
+Windbreaker,Lightweight windbreaker for windy days,sold,40.00,50,img_27.jpg
+Rugby Shirt,Traditional rugby shirt with bold stripes,in stock,50.00,30,img_28.jpg
+Dress Pants,Classic dress pants for formal wear,limited edition,45.00,20,img_29.jpg
+Flannel Shirt,Soft flannel shirt with a plaid pattern,sold,39.99,55,img_30.jpg
+Leather Boots,Durable leather boots with a rugged sole,in stock,120.00,15,img_31.jpg
+Utility Jacket,Functional utility jacket with plenty of pockets,limited edition,65.00,40,img_32.jpg
+Blazer Jacket,Classic blazer jacket with a modern fit,sold,140.00,25,img_33.jpg
+Graphic Tee,Fun graphic t-shirt with bold designs,in stock,22.99,60,img_34.jpg
+Henley Long Sleeve,Long sleeve henley shirt for cooler days,limited edition,34.00,45,img_35.jpg
+Wool Coat,Elegant wool coat for winter,sold,150.00,20,img_36.jpg
+Polo Sweater,Polo style sweater with a ribbed collar,in stock,55.00,35,img_37.jpg
+Stretch Jeans,Comfortable stretch jeans with a modern cut,limited edition,42.00,50,img_38.jpg
+Casual Blazer,Relaxed fit blazer for casual wear,sold,75.00,30,img_39.jpg
+Crewneck Sweatshirt,Simple crewneck sweatshirt for everyday wear,in stock,33.99,60,img_40.jpg
+Chukka Boots,Stylish chukka boots with a classic design,limited edition,100.00,20,img_41.jpg
+Quilted Vest,Lightweight quilted vest for layering,sold,45.00,40,img_42.jpg
+Long Sleeve Shirt,Essential long sleeve shirt with a classic fit,limited edition,27.99,70,img_43.jpg
+Knit Sweater,Cozy knit sweater available in several colors,sold,55.00,50,img_44.jpg
+Parka,Heavy-duty parka for extreme weather,in stock,180.00,10,img_45.jpg
+Casual Shorts,Comfortable casual shorts for leisure,limited edition,21.99,75,img_46.jpg
+Corduroy Pants,Stylish corduroy pants with a vintage look,sold,45.00,40,img_47.jpg
+Trench Coat,Classic trench coat for a sophisticated look,in stock,140.00,15,img_48.jpg
+Pima Cotton T-Shirt,Luxurious pima cotton t-shirt for ultimate comfort,limited edition,32.00,60,img_49.jpg
+Military Jacket,Rugged military-inspired jacket with epaulets,sold,70.00,50,img_50.jpg
+Zip-Up Hoodie,Zip-up hoodie with a modern design,limited edition,55.00,30,img_51.jpg
+Plaid Shirt,Timeless plaid shirt with a soft feel,limited edition,36.00,65,img_52.jpg
+Suede Jacket,Luxurious suede jacket for a stylish appearance,sold,150.00,20,img_53.jpg
+Track Jacket,Sporty track jacket with a full zip,limited edition,45.00,50,img_54.jpg
+Down Vest,Insulated down vest for additional warmth,sold,60.00,35,img_55.jpg
+Slim Fit Shirt,Modern slim fit shirt for a tailored look,limited edition,30.00,60,img_56.jpg
+Boat Shoes,Classic boat shoes with a nautical style,sold,75.00,20,img_57.jpg
+Casual Blazer Jacket,Easygoing blazer jacket for smart-casual outfits,in stock,85.00,30,img_58.jpg
+Leather Belt,Stylish leather belt with a sleek buckle,limited edition,25.00,70,img_59.jpg
+Sweat Pants,Comfortable sweat pants for lounging,sold,29.99,55,img_60.jpg
+Wool Sweater,Warm wool sweater perfect for layering,in stock,60.00,25,img_61.jpg
+Turtleneck Sweater,Classic turtleneck sweater for added warmth,limited edition,50.00,30,img_62.jpg
+Lounge Pants,Soft lounge pants for relaxed days,sold,27.00,45,img_63.jpg
+Fleece Jacket,Cozy fleece jacket for cool weather,in stock,35.00,60,img_64.jpg
+Structured Blazer,Blazer with a structured fit for a sharp look,limited edition,95.00,20,img_65.jpg
+Denim Shirt,Versatile denim shirt with a casual vibe,sold,40.00,50,img_66.jpg
+Leather Gloves,Stylish leather gloves for cold weather,in stock,30.00,30,img_67.jpg
+Thermal Pants,Heat-retaining thermal pants for colder days,limited edition,35.00,25,img_68.jpg
+Dress Boots,Formal dress boots with a polished finish,sold,120.00,20,img_69.jpg
+Cotton Vest,Lightweight cotton vest for layering,in stock,28.00,40,img_70.jpg
+Quilted Jacket,Quilted jacket for a stylish appearance,limited edition,70.00,30,img_71.jpg
+Henley Short Sleeve,Short sleeve henley shirt for casual wear,sold,26.99,55,img_72.jpg
+
