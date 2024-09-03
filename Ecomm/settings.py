@@ -22,8 +22,8 @@ CORS_ALLOWED_ORIGINS = [
     # React development server
 ]
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media/product_images')
+MEDIA_URL = '/media/product_images/'
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
