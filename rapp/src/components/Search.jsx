@@ -6,31 +6,28 @@ const Search = ({ isVisible, onClose }) => {
   const [results, setResults] = useState([]);
   const searchRef = useRef(null);
 
-  // Fetch search results from API
   const fetchSearchResults = async (query) => {
-    if (query.length > 2) { // Only fetch results for queries longer than 2 characters
+    if (query.length > 2) {
       try {
         const searchResults = await searchProducts(query);
-        setResults(searchResults); // Using the response from searchProducts function
+        setResults(searchResults);
       } catch (error) {
         console.error('Error fetching search results:', error);
-        setResults([]); // Clear results on error
+        setResults([]);
       }
     } else {
-      setResults([]); // Clear results if query is too short
+      setResults([]);
     }
   };
 
-  // Update search results when query changes
   useEffect(() => {
     const delayDebounceFn = setTimeout(() => {
       fetchSearchResults(query);
-    }, 300); // Debounce delay
+    }, 300);
 
-    return () => clearTimeout(delayDebounceFn); // Clean up debounce
+    return () => clearTimeout(delayDebounceFn);
   }, [query]);
 
-  // Close search input if clicked outside
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (searchRef.current && !searchRef.current.contains(event.target)) {
@@ -44,14 +41,12 @@ const Search = ({ isVisible, onClose }) => {
     };
   }, [onClose]);
 
-  if (!isVisible) {
-    return null;
-  }
-
+  if (!isVisible) return null;
+  const baseUrl = 'http://localhost:8000/media/product_images/';
   return (
     <div
       ref={searchRef}
-      className="fixed top-14 left-0 right-0 container mx-auto mt-3 p-4 bg-white shadow-lg rounded-md z-40"
+      className="fixed top-14 left-0 right-0 container mx-auto mt-3 p-4 bg-white shadow-lg rounded-md z-50"
     >
       <input
         type="text"
@@ -60,13 +55,17 @@ const Search = ({ isVisible, onClose }) => {
         onChange={(e) => setQuery(e.target.value)}
         className="w-full p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
       />
-      {/* Search Results */}
       {query && (
         <div className="mt-2 max-h-60 overflow-y-auto border border-gray-300 rounded-md bg-white shadow-lg">
           {results.length > 0 ? (
             results.map((item) => (
               <div key={item.id} className="p-2 hover:bg-gray-100 cursor-pointer">
-                {item.title} {/* Adjust based on the structure of your API response */}
+                <img
+                  src={`${baseUrl}${item.image}`}
+                  alt={item.title}
+                  className="inline-block w-10 h-10 mr-2 object-cover"
+                />
+                <span>{item.title}</span>
               </div>
             ))
           ) : (

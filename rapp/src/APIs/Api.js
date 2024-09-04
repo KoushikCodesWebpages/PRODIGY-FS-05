@@ -10,6 +10,18 @@ export const searchProducts = async (query) => {
   }
 };
 
+export const fetchAllProducts = async (setProducts, setLoading, setError) => {
+  try {
+    const response = await axios.get('http://localhost:8000/api/products/'); // Adjust based on your API endpoint
+    const productData = response.data.results; // Adjust based on the structure of your API response
+    setProducts(productData);
+    setLoading(false);
+  } catch (err) {
+    setError(err.message);
+    setLoading(false);
+  }
+};
+
 
 export const getProductById = async (id) => {
   try {
