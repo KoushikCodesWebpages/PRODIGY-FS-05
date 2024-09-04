@@ -1,6 +1,6 @@
 import csv
 from django.core.management.base import BaseCommand
-from api.models import Product  # Import your Product model
+from api.models import Product
 
 class Command(BaseCommand):
     help = 'Import products from a CSV file'
@@ -10,15 +10,21 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         csv_file_path = options['csv_file']
-        with open(csv_file_path, 'r') as file:
-            reader = csv.DictReader(file)
-            for row in reader:
-                Product.objects.create(
-                    title=row['title'],
-                    description=row['description'],
-                    status=row['status'],
-                    price=row['price'],
-                    stock=row['stock'],
-                    image=row['image']
-                )
-        self.stdout.write(self.style.SUCCESS('Successfully imported products'))
+
+        try:
+            with open(csv_file_path, 'r') as file:
+                reader = csv.DictReader(file)
+                for row in reader:
+                    # Create or update the product
+                    Product.objects.create(
+                        title=row['title'],
+                        description=row['description'],
+                        status=row['status'],
+                        price=row['price'],
+                        stock=row['stock'],
+                        image=row['image']  # Store the image path directly
+                    )
+
+            self.stdout.write(self.style.SUCCESS('Successfully imported products'))
+        except Exception as e:
+            self.stdout.write(self.style.ERROR(f'Error importing products: {e}'))
