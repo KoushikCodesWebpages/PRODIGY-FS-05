@@ -12,7 +12,7 @@ const ProductCard = ({ product }) => {
  // Logs the full URL, e.g., 'http://localhost:8000/media/product_images/img_2.jpg'
   
   return (
-    <div className="bg-white shadow-md rounded-lg overflow-hidden max-w-sm mx-auto">
+    <div className="bg-white shadow-md overflow-hidden max-w-sm mx-auto">
       <img
         src={imageUrl}
         alt={title}

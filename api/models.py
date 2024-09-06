@@ -19,5 +19,3 @@ class Product(BaseDBModel):
     price = models.DecimalField(max_digits=10, decimal_places=2)
     stock = models.IntegerField()
     image = models.ImageField(upload_to='product_images/', null=True, blank=True)
-
- 
